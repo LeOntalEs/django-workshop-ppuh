@@ -5,7 +5,7 @@ from django.http import HttpResponse
 from app.models import Department, Student
 from app.util import fx
 # Create your views here.
-
+# this is a comment 
 def homepage(request):
     # qs = Department.objects.all().values('name', 'id')
     stud = Student.objects.get(pk=1)
